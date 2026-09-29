@@ -1,0 +1,14 @@
+{
+  "name": "exercicio-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testes E2E da agenda de contatos com Cypress",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --e2e",
+    "test": "cypress run --e2e"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
